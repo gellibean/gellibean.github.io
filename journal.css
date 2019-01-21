@@ -4,6 +4,53 @@
     position: absolute;
     background-image: url("https://images.unsplash.com/photo-1526135566407-7a34b1e7763f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80");
     background-size: cover;
-    margin: 0px;
     z-index: 0;
+    margin: 0px;
+}
+
+#journal-header{
+    font-size: 56px;
+    top: 120px;
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    left: 37%;
+    color: var(--secondary-color);
+}
+
+#my-posts{
+    top: 23%;
+    width: 70%;
+    max-height: 70%;
+    position: absolute;
+    left: 15%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.post{
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.post-header{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    height: 25px;
+    width: 100%;
+    position: relative;
+    font-size: 120%;
+}
+
+.post-content{
+    padding: 25px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    min-height: 100px;
+    width: 100%:
+    position: relative;
+    font-size: 120%;
 }
